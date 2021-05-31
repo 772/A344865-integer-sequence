@@ -1,6 +1,6 @@
 # repeating-prime-gap-sequences
 
-a(n) is the amount of first prime gaps without a repetive sequence of n numbers.
+a(n) is the number of first prime gaps without a repetive sequence of n numbers.
 
 When using a huge amount of primes, this software proves that n = 14 is the first n > 1 where a(n) > a(n-1)^2.
 
