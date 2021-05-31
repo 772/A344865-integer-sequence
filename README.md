@@ -1,22 +1,22 @@
 # repeating-prime-gap-sequences
 
-a(n) is the position of the second occurence of a length n sequence in the list of prime gaps.
+a(n) is the amount of first prime gaps without a repetive sequence of n numbers.
 
 When using a huge amount of primes, this software proves that n = 14 is the first n > 1 where a(n) > a(n-1)^2.
 
 ```
-n = 1: At position 3 the sequence 2 occurs a second time.
-n = 2: At position 5 the sequence 2, 4 occurs a second time.
-n = 3: At position 5 the sequence 2, 4, 2 occurs a second time.
-n = 4: At position 5 the sequence 2, 4, 2, 4 occurs a second time.
-n = 5: At position 16 the sequence 6, 2, 6, 4, 2 occurs a second time.
-n = 6: At position 55 the sequence 6, 6, 2, 6, 4, 2 occurs a second time.
-n = 7: At position 83 the sequence 2, 6, 4, 6, 8, 4, 2 occurs a second time.
-n = 8: At position 83 the sequence 2, 6, 4, 6, 8, 4, 2, 4 occurs a second time.
-n = 9: At position 1206 the sequence 6, 4, 12, 8, 6, 12, 4, 6, 12 occurs a second time.
-n = 10: At position 1206 the sequence 6, 4, 12, 8, 6, 12, 4, 6, 12, 6 occurs a second time.
-n = 11: At position 3867 the sequence 6, 14, 4, 26, 4, 2, 12, 10, 8, 4, 8 occurs a second time.
-n = 12: At position 3867 the sequence 6, 14, 4, 26, 4, 2, 12, 10, 8, 4, 8, 12 occurs a second time.
-n = 13: At position 3867 the sequence 6, 14, 4, 26, 4, 2, 12, 10, 8, 4, 8, 12, 4 occurs a second time.
-n = 14: No repetition found while searching through the first 14953689 prime gaps.
+2 is the amount of first prime gaps without a repetive sequence of 1 numbers.
+5 is the amount of first prime gaps without a repetive sequence of 2 numbers.
+6 is the amount of first prime gaps without a repetive sequence of 3 numbers.
+7 is the amount of first prime gaps without a repetive sequence of 4 numbers.
+19 is the amount of first prime gaps without a repetive sequence of 5 numbers.
+59 is the amount of first prime gaps without a repetive sequence of 6 numbers.
+88 is the amount of first prime gaps without a repetive sequence of 7 numbers.
+89 is the amount of first prime gaps without a repetive sequence of 8 numbers.
+1213 is the amount of first prime gaps without a repetive sequence of 9 numbers.
+1214 is the amount of first prime gaps without a repetive sequence of 10 numbers.
+3876 is the amount of first prime gaps without a repetive sequence of 11 numbers.
+3877 is the amount of first prime gaps without a repetive sequence of 12 numbers.
+3878 is the amount of first prime gaps without a repetive sequence of 13 numbers.
+No repetition of length 14 found while searching through the first 4202 prime gaps.
 ```
