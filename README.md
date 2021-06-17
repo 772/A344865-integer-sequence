@@ -1,4 +1,4 @@
-# repeating-prime-gap-sequences
+# A344865 integer sequence
 
 a(n) is the largest k such that no subsequence of n numbers appears more than once in the sequence of the first k prime gaps while overlapping subsequences are allowed.
 
