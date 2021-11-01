@@ -9,5 +9,5 @@ def a(n):
             return i + n - 1
         saved.add(tuple(sequence))
     return None
-for n in range(1, 14): # n = 14 is the first n > 1 where a(n) > a(n-1)^2.
+for n in range(1, 14):
     print(a(n), end=", ")
