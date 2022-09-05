@@ -1,0 +1,10 @@
+[package]
+name = "a344865"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+primal = "0.3.1"
+
+[profile.dev]
+opt-level = 3
