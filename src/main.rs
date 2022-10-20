@@ -13,7 +13,6 @@ fn a(n: usize, list_of_prime_gaps: &Vec::<usize>) -> usize {
 }
 
 fn main() {
-	// a(14) = 10252040. a(15) is not in the first 50.000.000 prime gaps.
 	let primes: Vec<usize> = primal::Primes::all().take(10252043).collect();
 	let mut list_of_prime_gaps = Vec::<usize>::new();
 	for i in 1..primes.len() {
