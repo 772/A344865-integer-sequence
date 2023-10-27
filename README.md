@@ -7,4 +7,4 @@ a(n) is the largest k such that no subsequence of n numbers appears more than on
 http://oeis.org/A344865
 
 Assumption: The number series is infinitely long.  
-If not, the number sequence would end with a(n) and this would mean that there is a function f which can calculate any prime number from nothing but the previous n primes.
+If not, the number sequence would end with a(n) and this would mean that there is a function f which can calculate any prime number from nothing but the previous n primes. This is because there would be only a limited amount of possibilities of arranging the input parameters but there is an unlimited amount of primes.
